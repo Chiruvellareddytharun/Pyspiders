@@ -5,8 +5,8 @@ print(a,type(a))
 
       "100"        100
       "10.5"      value error
-      "1+3j"     value error
-      "don"      value error
+      "1+3j"      value error
+      "don"       value error
         100        100
         10.5       10
         1+2j      type error'''
