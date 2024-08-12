@@ -1,0 +1,22 @@
+#There are three type of operators
+
+1.based on no. of operands
+      -unary
+      -binary
+      -ternary
+
+2.based on operation
+      -arthematic -> +,-,*,/,//,**,%
+      -relational/comparision -> ==,<,>,<=,>=,!=
+      -logical -> and,or,not
+      -bitwise -> &,|,^,<<,>>,~    
+      -assignment -> =
+           ->short hand -> +=,-=,*=,/=,%=,//=,**=,
+                        &=,|=,^=,<<=,>>=
+                    
+3.special operations
+        -membership -> in, not in
+        -identity -> is,is not
+        -dot -> .
+        -slicing -> :
+        -decoration -> @
