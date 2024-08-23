@@ -52,4 +52,37 @@ if (c//2)*2==0:
 else:
     print("odd number") '''   
 
+'''a = 20
+b = 30
+c = a>>b
+print(c)
+d = a<<b
+print(d)
+if c>d:
+    print("c is greater")
+else:
+    print("d is greater")   '''
 
+         #vowel
+'''char = input("enter the element: ")
+vowels =("aeiou/AEIOU")
+if char in vowels:
+    print("char is vowel")
+else:
+    print("char is not a vowel")  ''' 
+
+       #alphabets
+'''n = input("Enter the character:")
+
+if n>='a' and n<='z' or  n>='A' and n<='Z':
+    print("alphabet")
+else:
+    print("not a alphabet")'''
+
+#positive number
+'''a = int(input("Enter the integer: "))
+if a>0 :
+    print("positive") 
+else:
+    print("not a positive") '''
+   
