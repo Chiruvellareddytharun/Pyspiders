@@ -44,4 +44,3 @@ else:
     print("senior citizen")   '''
 
 
-#

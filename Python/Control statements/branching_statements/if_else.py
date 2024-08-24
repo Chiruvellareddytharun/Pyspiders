@@ -1,3 +1,4 @@
+#given no. is even or odd number
 '''a = int(input("a:"))
 b = int(input("b:"))
 c = a+b
@@ -7,7 +8,7 @@ if c%2==0:
 else:
     print("odd number")    '''
 
-
+#percentage
 '''a=int(input("a:"))
 b=int(input("b:"))
 c=int(input("c:"))
@@ -21,7 +22,7 @@ if ((z/500)*100)>=35:
 else:
     print("fail")   ''' 
 
-
+#using other than ""=="" operator (is)
 '''a=int(input("a:"))
 b=int(input("b:"))
 
@@ -31,7 +32,7 @@ else:
     print("different values")'''
         
 
-
+#using in operator 
 '''a=input("a:")
 b=input("b:")
 c=input("c:")
@@ -42,7 +43,7 @@ else:
     print("false")  '''       
 
 
-
+#without using modules  given no. is even or odd
 '''a = int(input("a: "))
 b = int(input("b: "))
 c = a + b
@@ -52,6 +53,7 @@ if (c//2)*2==0:
 else:
     print("odd number") '''   
 
+#leftshift and rightshift for greater value
 '''a = 20
 b = 30
 c = a>>b

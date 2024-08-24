@@ -1,0 +1,6 @@
+'''based on no. of operands
+         operator         no. of values            examples
+          
+          unary            one Value               ~,not
+          binary           two values              +,-,*,/,%,**,//,(All other operators)
+          ternary          (not there)                           '''
