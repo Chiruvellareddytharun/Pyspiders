@@ -95,5 +95,55 @@ else:
     print("it is not in the range") '''
 
 
+         #rainbow
+'''color = input("enter the color: ")
+rainbow =["violet","indigo","blue","green","yellow","orange","red"]
+if color in rainbow :
+    if color == "violet":
+        print("violet is first color in rainbow")
+    elif color == "indigo":
+        print("indigo is second color in rainbow")    
+    elif color == "blue":
+        print("blue is thrid color in rainbow")
+    elif color =="green":
+        print("green is fourth color in rainbow")
+    elif color =="yellow":
+        print("yellow is fiveth color in rainbow")
+    elif color =="orange":
+        print("orange is sixth color in rainbow")
+    else:
+        print("red is seventh color in rainbow")                   
+else:
+    print("it is not a color in rainbow")     ''' 
+
+
+     # greater of four numbers
+'''a = int(input("a:"))
+b = int(input("b:"))
+c = int(input("c:"))
+d = int(input("d:"))
+if(a>b):
+    if(a>c):
+        if(a>d):
+            print(a)
+        else:
+            print(d)
+    else:
+        if(c>d):
+            print(c)
+        else:
+            print(d)
+else:
+    if(b>c):
+        if(b>d):
+            print(b)
+        else:
+            print(d)
+    else:
+        if(c>d):
+            print(c)
+        else:
+            print(d) '''
+
 
 

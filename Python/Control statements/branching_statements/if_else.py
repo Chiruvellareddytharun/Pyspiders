@@ -88,3 +88,9 @@ if a>0 :
 else:
     print("not a positive") '''
    
+#lower case alphabet
+'''char =input("enter the alphabet: ")
+if char>='a' and char<='z'   :
+        print("lowercase Alphabet")
+else:
+    print("it is not a lower case alphabet") '''       
