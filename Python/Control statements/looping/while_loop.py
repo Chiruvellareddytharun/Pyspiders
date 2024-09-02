@@ -38,6 +38,13 @@ while i<=10:
     print(f"{n}*{i}={n*i}")
     i+=1  '''
 
+#reverse multiplication
+'''n = int(input("n:"))
+i=10
+while i>=1:
+    print(f"{n}*{i}={n*i}")
+    i-=1 '''
+
 #break is using printing numbers
 '''i=1
 while i<=10:
@@ -75,7 +82,11 @@ while i<=20:
     else:
         print(i)
         i+=1    '''
-        
+
+
+
+
+     
 
     
     
