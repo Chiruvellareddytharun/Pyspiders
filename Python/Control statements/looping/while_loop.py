@@ -84,11 +84,16 @@ while i<=20:
         i+=1    '''
 
 
-
+#extracting small letters from string        
+n = input("n:")
+i=0
+while i<len(n):
+    if n[i]>='a' and n[i]<='z':
+      print(n[i] , end=" ")
+    i+=1            
 
      
 
-    
     
     
     

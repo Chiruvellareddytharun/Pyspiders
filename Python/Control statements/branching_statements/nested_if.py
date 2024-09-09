@@ -146,4 +146,18 @@ else:
             print(d) '''
 
 
+#upper case should be lower case and lower case should be upper case 
+#and integer should be square of it and special character add 5and convert into character
+'''n = input("n:")
+if n>='A' and n<='Z':
+    # print(chr(ord(n)+32))
+    a1=ord(n)+32
+    print(chr(a1))
+elif  n >='a' and n<='z':
+    print(chr(ord(n)-32))
+elif n>= '1' and n<='9':
+    print(int(n)**2)
+else:
+    print(chr(ord(n)+5))   ''' 
+
 

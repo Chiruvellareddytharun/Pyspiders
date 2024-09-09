@@ -52,3 +52,29 @@ for i in range(1,n+1):
     if i%2==0:
         res+=i
 print(res)  '''
+
+
+#write a prgm to find odd numbers upto n without using %
+'''n=int(input("n:"))
+res=1
+for i in range(1,n+1,2):
+    print(i)      '''
+
+#write a prgm to print even numbers two times odd numbers two times upto n
+'''n = int(input("n:"))
+for i in range(1,n+1):
+    if i%2==0:
+       for j in range(2):
+        print(i,end=" ")
+        
+    else:
+       for k in range(3):    
+        print(i,end=" ")    '''   
+
+#print * using for loop
+'''n=int(input("n:"))
+for i in range(1,n+1):
+    print('*') '''
+
+
+

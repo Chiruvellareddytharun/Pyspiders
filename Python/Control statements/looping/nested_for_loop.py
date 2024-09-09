@@ -34,3 +34,18 @@ for i in range(1,n+1):
     for j in range(1,n+1):
         print(f"{i}*{j}={j*i}",end=" ")  
     print()   '''     
+
+
+#print right angle triangle using for loop print in the form of *'s
+'''n=int(input("n:"))
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print('*',end=" ")    
+
+    print()'''
+
+    #   (oR)
+
+'''n=int(input("n:"))
+for i in range(1,n+1):   
+    print('*' * i)         '''

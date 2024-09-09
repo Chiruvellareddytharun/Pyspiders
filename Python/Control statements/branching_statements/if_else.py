@@ -94,3 +94,15 @@ if char>='a' and char<='z'   :
         print("lowercase Alphabet")
 else:
     print("it is not a lower case alphabet") '''       
+
+
+#whether the entered number is single , double ,three,multi  digit
+'''num = int(input("n:"))
+if num>=-9 and num<=9:
+    print("it is single digit")
+elif num>=-99 and num<=99:
+    print("it is double digit")
+elif num >=-999 and num<=999:
+    print("it is three digit")
+else:
+    print("it is multi digit")    '''    
