@@ -175,3 +175,10 @@
             l1=[1,2,3,4]
             l2=l1*3  
             print(l2)               #[1,2,3,4,1,2,3,4,1,2,3,4]             '''
+
+
+'''list comprehension :
+   - method of creating new list using loop and a condition in a single line '[]' is called list comprehension.
+      syntax:
+             l1=[value  for loop   if condition]
+               '''
