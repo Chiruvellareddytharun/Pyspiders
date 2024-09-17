@@ -181,4 +181,31 @@
    - method of creating new list using loop and a condition in a single line '[]' is called list comprehension.
       syntax:
              l1=[value  for loop   if condition]
-               '''
+             
+      #creating a list on 1 to n by using list comprehension
+      n = int(input("n: "))
+      l1=[i for i in range (1,n+1)]
+      print(l1) 
+      
+
+      #with condition 
+      n = int(input("n: "))
+      l1=[i for i in range(1,n+1) if i%2==0]
+      print(l1)
+                             
+        
+      #we can use operation  
+      n = int(input("n: "))
+      l1=[i**2 for i in range(1,n+1)]
+      print(l1)                                                        
+
+
+      #using chr and ord 
+      l1 = [chr(x) for i in range (ord("A),ord("Z")+1)]
+      print(l1)                                                              #['A'..........'Z'] 
+
+
+      #nested for loop
+      l1=[x   for x in range(1,4) for y in range(1,4)]
+      print(l1)                                                             #[1,1,1,2,2,2,3,3,3]    
+                          '''
