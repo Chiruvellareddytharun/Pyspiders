@@ -42,6 +42,16 @@
                  print(c)                               # 0    '''
 
 
+''' #TUPLE CONCATINATION &REPETATION :
+          t1=(1,2,3,4)
+          t2=(10,20)
+          t3=t1+t2
+          print(t3)                         #{1,2,3,4,10,20} 
+          t4=t1*2
+          print(t4)                         #{1,2,3,4,1,2,3,4}
+'''
+
+
 ''' #TUPLE COMPREHENSION :
             - in python tuople comprehension is not possible. if u try to archive python 
               returns generate object and the expression is called generator expression.
