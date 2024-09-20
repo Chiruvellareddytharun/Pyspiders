@@ -73,4 +73,109 @@
                    s1=discard(20)                  #{40,10,30}
                    s1=discard(1000)                #{40,10,30}
                    print(s1)
+                
+
+               s1={1,2,3,4,5,10,100}
+               s2={10,20,30,40,50,100,4}
+               s3={100,200,300,400,500,1,4}             
+        7.union:                 set.union(*set) -> set
+              ex:
+                 res1=s1.union(s2)
+                 print(res1)                       #{1,2,3,4,5,10,100,20,30,40,50}
+                 res2=s1.union(s2,s3)
+                 print(res2)                       #{1,2,3,4,5,10,100,20,30,40,50,200,300,400,500}
+
+
+        8.update:                set.update(*set) -> none 
+              ex:
+                 print(s1)                       #{1, 2, 3, 4, 5, 100, 10}
+                 s1.update(s2)
+                 print(s1)                       #{1, 2, 3, 4, 5, 100, 40, 10, 50, 20, 30}
+
+
+        9.intersection:          set.intersection(*set) -> set
+              ex: 
+                 res=s1.intersection(s2)
+                 print(s2)                       #{10, 100, 4}
+
+
+        10.intersection_update:              set.intersection_update(*set) -> none
+              ex:
+                 print(s1)                           #{1, 2, 3, 4, 5, 100, 10}
+                 s1.intersection_update(s2)
+                 print(s1)                           #{10, 100, 4}
+
+
+        11.difference:                        set.difference(*set) -> set
+              ex:
+                 res=s1.difference(s2)
+                 print(res)                          #{1, 2, 3, 5}
+
+
+        12.difference_update:                 set.difference_update(*set) -> none 
+              ex:
+                 print(s1)                         #{1, 2, 3, 4, 5, 100, 10}
+                 s1.difference_update(s2)
+                 print(s1)                         #{1, 2, 3, 5}   
+
+
+        13.symmetric_difference:              set.symmetric_difference(set) -> set
+              ex:
+                 res=s1.symmetric_difference(s2) 
+                 print(res)                             #{1, 2, 3, 5, 20, 30, 40, 50}
+
+
+        14.symmetric_difference_update:           set.symmetric_difference_update(set) -> none
+              ex:
+                 print(s1)                              #{1, 2, 3, 4, 5, 100, 10} 
+                 s1.symmetric_difference_update(s2)
+                 print(s1)                              #{1, 2, 3, 5, 20, 30, 40, 50}  
+
+
+        15.issubset:                    set.issubject(set) -> bool
+              ex: 
+                 print(s2.issubset(s1))                 #true
+                 print(s3.issubset(s1))                 #false
+
+
+        16.issuperset:                   set.issuperset(set) -> bool
+              ex: 
+              print(s1.issuperset(s2))                    #true
+              print(s1.issuperset(s3))                    #false
+
+
+        17.isdisjoint:                    set.isdisjoint(set) -> bool 
+              ex: 
+                 s1={1,2,3,4,5}
+                 s2={10,20,30,40}
+                 s3={100,200,300,3}
+                 print(s1.isdisjoint(s2))              #true
+                 print(s1.isdisjoint(s3))              #false  
                 '''
+
+
+'''SET CONCATINATION & REPEATITION :
+          S1={1,2,3,4}
+          S2={10,20,30}
+          S3=S1+S2
+          print(s3)                                #type error
+          s4=s1*3
+          print(s4)                                #type error        '''
+
+
+'''SET COMPREHENSION :
+       Syntax:
+              set={value    for loop     if condition}
+         ex:
+            s1={x  for x in range(1,11)}
+            print(s1)                                #{1,2,3,4,5,6,7,8,9,10}
+
+            n=int(input("n: "))                                            #n: 3
+            s1={int(input(f"val {x}: "))   for x in range(1,n+1)}           val 1: 2                                                       
+            print(s1)                                                       val 2: 4
+                                                                            val 3: 7                                                          
+                                                                            {2, 4, 7}  '''
+
+
+
+

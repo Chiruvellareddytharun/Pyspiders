@@ -35,5 +35,19 @@ match opp:
         case _:
            print("not a operation") '''
 
+                 #pizza
+
+'''val =input("enter the topin: ")
+baseprice =100
+match val:
+      case "onion":
+            print(baseprice+100)
+      case "paneer":
+            print(baseprice+100)
+      case "cheese":
+            print(baseprice+100)
+      case _:
+            print("no topin")    '''
+
 
                   
