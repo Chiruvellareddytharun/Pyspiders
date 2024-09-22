@@ -29,6 +29,21 @@
 # s3={100,200,300,3}
 # print(s1.isdisjoint(s2))              #
 # print(s1.isdisjoint(s3)) 
-n=int(input("n: "))
-s1={int(input(f"val {x}: "))   for x in range(1,n+1)}
-print(s1) 
+# n=int(input("n: "))
+# s1={int(input(f"val {x}: "))   for x in range(1,n+1)}
+# print(s1) 
+# d1={1:10,2:20,3:30}
+# c1=d1.setdefault(1,200)
+# c2=d1.setdefault(4,40)
+# print(c1,c2)
+# print(d1) 
+# d1={1:10,2:20,3:30}
+# c = d1.get(3)
+# print(c)
+# c1 = d1.get(100,"key does not exist")
+# print(c1) 
+d1={1:10,2:20,3:30}
+d1={}.fromkeys(d1)
+print(d1)
+d2={}.fromkeys('abcd')  
+print(d2)  

@@ -163,7 +163,7 @@
           print(s4)                                #type error        '''
 
 
-'''SET COMPREHENSION :
+'''SET COMPREHENSION :                    set={value   for loop    if condition}
        Syntax:
               set={value    for loop     if condition}
          ex:
@@ -175,7 +175,4 @@
             print(s1)                                                       val 2: 4
                                                                             val 3: 7                                                          
                                                                             {2, 4, 7}  '''
-
-
-
 
