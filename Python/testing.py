@@ -42,8 +42,20 @@
 # print(c)
 # c1 = d1.get(100,"key does not exist")
 # print(c1) 
-d1={1:10,2:20,3:30}
-d1={}.fromkeys(d1)
-print(d1)
-d2={}.fromkeys('abcd')  
-print(d2)  
+# d1={1:10,2:20,3:30}
+# d1={}.fromkeys(d1)
+# print(d1)
+# d2={}.fromkeys('abcd')  
+# print(d2)  
+# l1=[1,2,3,4,2]
+# print(l1)
+# l1.remove(2)
+# print(l1)
+# l1=[1,2,3,4,2,4,3,8]
+# l2=l1.index(4,4,7)
+# print(l2)
+# l3=l1.pop(l2)
+# print(l3)
+# print(l1)
+l1=[y  for x in range(1,4)  for y in range(1,4)]
+print(l1)
