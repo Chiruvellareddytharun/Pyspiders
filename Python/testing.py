@@ -57,5 +57,16 @@
 # l3=l1.pop(l2)
 # print(l3)
 # print(l1)
-l1=[y  for x in range(1,4)  for y in range(1,4)]
-print(l1)
+# l1=[y  for x in range(1,4)  for y in range(1,4)]
+# print(l1)
+# a=10
+# b=5
+# a=a^b
+# b=a^b
+# a=a^b
+# print(a)
+s="ababababa"
+print(s.rsplit('b',1))
+print(s.rsplit('b',2))
+l=["hello","hi"]
+print(":".join(l))

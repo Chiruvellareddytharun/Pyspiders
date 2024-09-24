@@ -58,5 +58,4 @@
            
            ex: 
               t1=(x  for i in range(1,6))
-              print(t1)                           #<generator object<genexpr> at0x00001090>
-'''
+              print(t1)                           #<generator object<genexpr> at0x00001090>     '''
