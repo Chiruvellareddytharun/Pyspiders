@@ -118,6 +118,62 @@
        10.rsplit :                string.rsplit( )
               ex:
                  s='abababa'
-                 res=s.rsplit('b'10)                       #                                    
+                 res=s.rsplit('b'10)                       #
+
+
+       14.casefold :               string.casefold( )
+              ex:
+                 print("ADD".lower())                        #add
+                 print("ADD".casefold())                     #add
+
+
+       15.title :                  string.title( )
+              ex:
+                 print("tharun is a waste guy".title())          #Tharun Is A Waste Guy.
+
+
+       16.istitle :                string.istitle( ) -> bool
+              ex:
+                 print("tharun is a alone boy".istitle())        #true
+
+
+       17.capitalize :             string.capitalize( )
+              ex:
+                 print("tharun is a alone boy".capitalize())     #Tharun is a alone boy
+
+
+       18.isalpha :                string.isalpha( ) -> bool
+              ex: 
+                 print("12aa".isalpha())                        #false
+                 print("aa".isalpha())                          #true
+
+
+       19.isalnum :                string.isalnum( ) -> bool
+              ex: 
+                 print("123abc".isalnum())                      #true
+                 print("abc".isalnum())                         #true
+                 print("12@aab".isalnum())                      #false 
+
+
+       20.isdecimal :             string.isdecimal( ) -> bool
+              ex:
+                 number='123'
+
+
+       21.isdigit :               string.isdigt( ) -> bool
+              ex:
+                 print("is digit with number",num.isdigit())                    #true
+                 print("is digit with fraction",fraction.isdigit())             #false
+                 print("is digit with superscript",superscript.isdigit())       #true
+                 print("is digit with string",string.isdigit())                 #false
+
+
+       22.isnumeric :             string.isnumeric( ) -> bool
+              ex:
+                 print("is numeric with number",num.isnumeric())                   #true
+                 print("is numeric with fraction",fraction.isnumeric())            #true
+                 print("is numeric with superscript",superscript.isnumeric())      #true
+                 print("is numeric with string",string.isnumeric())                #false
+
 
 '''
