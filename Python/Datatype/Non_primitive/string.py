@@ -176,4 +176,102 @@
                  print("is numeric with string",string.isnumeric())                #false
 
 
+       23.isspace :               string.isspace( ) -> bool
+              ex:
+                 print("  ".isspace())                       #true
+                 print(" a".isspace())                       #false
+                 print("".isspace())                         #false
+
+
+       24.strip :                 string.strip( )
+           - remove space from first & last of string.
+              ex:
+                 print("  abc abc  ".strip())                     #abc abc  
+                 print("abc  abc  abc   ".strip())                #abc abc abc
+                 print("  abc abc abc".strip())                   #abc abc abc
+
+
+       25.lstrip :  
+              ex:
+                 print("  abc abc  ".lstrip())                    #abc abc  
+                 print("abc  abc  abc   ".lstrip())               #abc abc abc
+                 print("  abc abc abc".lstrip())                  #abc abc abc
+
+
+       26.rstrip :
+              ex:
+                 print("  abc abc  ".rstrip())                    #    abc abc        
+                 print("abc  abc  abc   ".rstrip())               #abc abc abc
+                 print("  abc abc abc".rstrip())                  #   abc abc abc
+
+
+       27.count :
+          - no. of occurance of a char in string.
+              ex:
+                 s = "hello abc"
+                 print(s.count('l'))                               #2
+                 print(s.count('z'))                               #0
+
+
+       28.zfill :
+           - to fill zeros with string.
+              ex:
+                 print(len(s))                            #9
+                 print(s.zfill(20))                       #00000000000hello abc
+
+
+       29.ljust :
+              ex:
+                 s="hello"
+                 print(s.ljust(10,'_'))                   #hello_ _ _ _ _
+
+
+       30.rjust :
+              ex:
+                 s="hello"
+                 print(s.rjust(10,'_'))                    #_ _ _ _ _hello 
+                 print(s.rjust(5,'_'))                     #  hello 
+                 print(s.rjust(11))                        #                hello
+
+
+       31.center :
+              ex:
+                 print(s.center(11,'_'))                  #_ _ _hello_ _ _
+                 print(s.center(11))                      #      hello   
+
+
+       32.isascii :              string.isascii( ) -> bool
+           - checks whether all char in string have ascii value.
+             ex:
+                s="hello"
+                print(s.isascii())                        #true
+                s1="hello "
+                print(s1.isascii())                       #false
+
+
+       33.isprintable :             string.isprintable( ) -> bool
+              ex:
+                 print("hello".isprintable())             #true
+                 print("hello \n \t".isprintable())       #false
+
+
+       34.isidentifiers :           string.isidentifier( ) -> bool     
+              ex: 
+                 print('abc1'.isidentifier())                   #true
+                 print('123abc'.isidentifier())                 #false
+                 print('ab@c'.isidentifier())                   #false
+                 print('abc_bbb'.isidentifier())                #true
+
+
+       35.iskeyword :              string.iskeyword( ) -> bool
+              ex:
+                 import keyword
+                 print("keyword .......")
+                 print(keyword.iskeyword('def'))                #true 
+                 print(keyword.iskeyword('abc'))                #false          
+ 
+       
+       36.swapcase :
+              ex:
+                 print("hello".swapcase())                      #hello          
 '''
