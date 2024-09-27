@@ -112,6 +112,13 @@
               print(d2)                      #{'a': None, 'b': None, 'c': None, 'd': None}    '''
 
 
+'''LOOPING DICTIONARY :
+        #using for loop in iterables :
+        d={"name":"tharun","age":20,"yop":2025,"gender":"male"}
+        for i in d :
+            print(i)                         #name,age,yop,gender          '''
+
+
 '''DICTIONARY CONCATINATION & REPEATITION :
           d1 ={1:10,2:20,3:30}
           d2 ={4:500}
@@ -128,5 +135,4 @@
                 first =['virat','sachin','vamsi','kapil']
                 last =['kohil','tendulkar','krishna','dev']
                 d1={x:y for x,y in zip(first,last)}
-                print(d1)                         #{'virat':'kohli','sachin':'tendulkar','vamsi':'krishna','kapil':'dev'}    
- '''
+                print(d1)                         #{'virat':'kohli','sachin':'tendulkar','vamsi':'krishna','kapil':'dev'}      '''

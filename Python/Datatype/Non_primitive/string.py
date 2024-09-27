@@ -273,5 +273,87 @@
        
        36.swapcase :
               ex:
-                 print("hello".swapcase())                      #hello          
-'''
+                 print("hello".swapcase())                      #hello
+
+
+       37.splitlines :            string.splitlines( ) -> list
+               ex: 
+                  print("hello \n aaa".split())             #['hello','aaa']
+                  print("hello \n aaa".splitlines())        #['hello',   ,'aaa']
+                  print("hello  aaa".splitlines())          #['hello    aaa']
+                  print("hello  aaa".split())               #['hello','aaa']
+                  print("hello \n aaa bbb".splitlines())    #['hello','aaa bbb']
+
+
+        38.removesuffix : 
+               ex:   
+                  print("hello aaa".removesuffix('aaa'))        #hello
+                  print("hello aaa".removesuffix('AAA'))        #hello aaa
+                  print("hello aaa".removesuffix('he'))         #hello aaa
+
+
+        39.removepreffix :
+               ex:
+                  print("hello aaa".removeprefix('he'))          #  llo aaa
+                  print("hello aaa".removeprefix('he'))          #  hello aaa                   
+                  print("hello aaa".removeprefix('aa'))          #  hello aaa
+
+
+        40.expand tabs :
+               ex:
+                  print('sss \t eee')                            #sss    eee
+                  print('sss \t eee'.expandtabs(10))             #sss       eee
+
+
+        41.format :
+               ex: 
+                  print("a:{} b:{}".formate(10,20))              #a:10   b:20
+                  print("a:{}".formate(10,20))                   #a:10
+                  print("a".formate(10,20))                      #a
+
+
+        42.formate.map :
+               ex:
+                  d={'name':'karthik','age':21} 
+                  print("hello {name} , age: {age}".formate_map(d))      #hello:karthik,age:21
+
+
+        43.translate :
+               ex: 
+                  s='ABC'
+                  d={65:'aa',66:'bb'}
+                  print(s.translate(d))                   #aabbC
+
+
+        44.maketrans :                string.maketrans( ) ->  dictionary
+           - to find ascii valuesbof keys.
+               ex:
+                  d1={'A':'aa','B':'bb'}
+                  print(''.maketrans(d1))                   #{65:'aa',66:'bb'}
+
+
+        45.encode :
+               ex:
+                  print('hello',encode(encoding='ascii'))
+                  #unicode encode error
+                  print('hello',encode(encoding='ascii',errors='ignore'))
+                  #hello
+                  s='hello',encode(encoding='ascii',errors='ignore')
+                  print("encode",s)                            #encoded b 'hello'
+                  for i in s:
+                       print(i,end=" ")                        #72 101 108 108 111
+                  print()
+
+
+        46.decode :
+               ex: 
+                  s1=s.decode()
+                  print("decode",s1)                           #decoded  hello
+                  for i in s1:
+                        print(i,end=" ")                       #h e l l o
+                  print()
+
+
+        47.replace :
+               ex: 
+                  print("hello hi".replace('hello','new'))         #new hi                              '''
