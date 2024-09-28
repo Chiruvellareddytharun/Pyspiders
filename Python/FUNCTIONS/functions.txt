@@ -1,0 +1,8 @@
+FUNCTIONS : function is a block of code written for reusability & modularity.
+
+->  Four types of functions :
+        1.built-in functions
+        2.user-defined functions
+        3.misulleneous functions
+        4.anonymous functions
+
