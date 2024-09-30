@@ -118,7 +118,7 @@
        10.rsplit :                string.rsplit( )
               ex:
                  s='abababa'
-                 res=s.rsplit('b'10)                       #
+                 res=s.rsplit('b'10)                       #['a','a','a','a']
 
 
        14.casefold :               string.casefold( )

@@ -58,3 +58,25 @@
            ex: 
               t1=(x  for i in range(1,6))
               print(t1)                           #<generator object<genexpr> at0x00001090>     '''
+
+
+'''FETCHING OF ELEMENTS IN THE TUPLE :
+        - USING FOR LOOP IN RANGE:
+          l1=(10,20,30,40,50)
+          for i in range(len(l1)):
+              print(l1[i],end=" ")           #10 20 30 40 50
+
+
+        - USING FOR LOOP IN ITERABLE:
+          L1=(10,20,30,40,50)
+          for i in l1:
+              print(i,end=" ")               #10 20 30 40 50
+
+
+        - USING WHILE LOOP:
+          l1=(10,20,30,40,50)
+          i=0
+          while i<len(l1):
+               print(l1[i] ,end=" ")
+          i+=1                              #10  20 30 40 50                
+        '''
