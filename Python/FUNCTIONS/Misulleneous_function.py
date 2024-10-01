@@ -11,8 +11,7 @@
                print("i am a funcction")
 
             function()
-            new=function
+            new=function                         #assigning the address of the function to new varaible
             print(new)
             print(type(new))
-            new() 
-'''
+            new()                                      '''

@@ -65,8 +65,23 @@
 # b=a^b
 # a=a^b
 # print(a)
-s="ababababa"
-print(s.rsplit('b',1))
-print(s.rsplit('b',2))
-l=["hello","hi"]
-print(":".join(l))
+# s="ababababa"
+# print(s.rsplit('b',1))
+# print(s.rsplit('b',2))
+# l=["hello","hi"]
+# print(":".join(l))
+# d1={1:10,2:20,3:30}
+# c=d1.get(1,"keys are good")
+# print(c)
+# res1=d1.items()
+# print(res1)
+# for i,j in d1:
+#     print(i,j)
+# s1={20,30,100}
+# print(s1)
+# r1=s1.pop()
+# print(s1,r1) 
+s1={1:10,2:20,3:30}
+s2={4:40}
+s3=s1+s2
+print(s3)
