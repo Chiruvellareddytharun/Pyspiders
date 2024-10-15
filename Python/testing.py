@@ -64,7 +64,7 @@
 # a=a^b
 # b=a^b
 # a=a^b
-# print(a)
+# print(a,b)
 # s="ababababa"
 # print(s.rsplit('b',1))
 # print(s.rsplit('b',2))
@@ -81,7 +81,7 @@
 # print(s1)
 # r1=s1.pop()
 # print(s1,r1) 
-s1={1:10,2:20,3:30}
-s2={4:40}
-s3=s1+s2
-print(s3)
+# s1={1:10,2:20,3:30}
+# s2={4:40}
+# s3=s1+s2
+# print(s3)

@@ -61,5 +61,32 @@ NOTE:  In positional default and keyword argument number of values passed must b
 
         fun(10,20,30,40)              #(10,20,30,40)   <class tuple>
         fun()                         #()  <class tuple>
-        fun(10,3.5,'don')             #(10,3.5,'don')  <class tuple>     
+        fun(10,3.5,'don')             #(10,3.5,'don')  <class tuple> 
+
+
+  5.ARBITARY KEYWORD :
+     - during function definition a variable with '**' prefixed to it will be defined
+       this argument is called arbitary keyword argument.
+     - this varaible can receive 0 to n no. of values and packs all the values in the form of dictionary.
+
+     ex:
+        def fun(**arg):
+           print(arg,type(arg))
+
+        fun()                                     #{} <class:dict>
+        fun(a=10,b=20,c=30)                       #{'a':10,'b:20','c':30} <class:dict>
+        fun('name':'tharun','age':21)             #{'name':'tharun','age':21} <class:dict> 
+
+NOTE : 1.In a function definition only one '*' parameter and one '**' parameter allowed.
+       2.'*' parameter cannot follow '**' parameter.
+       3.'**' parameter can follow '*' parameter.
+
+       ex:
+          def fun(a,b,c=0,*arg1,**arg2):
+             print(a,b,c,arg1,arg2,sep="\n")
+
+          fun(10,20,30,40,50,60,val1=100,val2=200)              #10,20,30,(40,50,60),{'val1':100,'val2':200}
+          fun(10,20,30,40,50,60,val1=100,val2=200,a=300)        #type error:fun() got multiple values for argument 'a'. 
+
+
 '''
