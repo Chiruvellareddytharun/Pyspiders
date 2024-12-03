@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        /* decender class */
+        /* decender selector */
         /* .thakur h1{
             color: brown;
         } */
 
-        /* child class */
-        .grand-parent>h1{
+        /* child selector */
+        /* .grand-parent>h1{
             color: aquamarine;
         }
         .grand-parent>p{
@@ -19,7 +19,21 @@
         }
         .parent>h1{
             color: brown;
-        }
+        } */
+    
+        /* adjucent sibling selector */
+         /* h1 + h5{
+            color: red;
+            text-shadow: 4px 4px 5px black;
+            font-size: 5rem;
+        } */
+        
+        /* general sibling selector */
+        /* h1 ~ h4{
+            color: greenyellow;
+            text-decoration: underline;
+            background-color: aqua;
+        } */
     </style>
 </head>
 <body>
@@ -45,13 +59,29 @@
      </div>    -->
 
      <!-- child selector -->
-    <div class="grand-parent">
+    <!-- <div class="grand-parent">
         <h1>This is direct child of grand parent</h1>
         <p>This is direct child of GP</p>
         <div class="parent">
         <h1>THis is direct child of parent</h1>
         <p>This is child of parent</p>
         </div>
-    </div>
+    </div> -->
+
+     <!-- adjucent sibling selector -->
+      <!-- <h1>This is child one</h1>
+      <h5>This is child two</h5>
+      <p>This is child three</p>
+      <div>This is child four</div>
+      <h1>This is child five</h1>
+      <h4>This is child six</h4> -->
+
+      <!-- general sibling selector -->
+      <!-- <h1>This is child one</h1>
+      <h5>This is child two</h5>
+      <p>This is child three</p>
+      <div>This is child four</div>
+      <h1>This is child five</h1>
+      <h4>This is child six</h4> -->
 </body>
 </html>
